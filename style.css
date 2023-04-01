@@ -1,0 +1,53 @@
+
+:root
+{
+    font-family: 'Consolas', monaco, monospace;
+    --c_1: #56312b;
+    --c_2: #EEEEEE;
+    background-color: var(--c_1);
+    text-align: center;
+}
+
+img.urze
+{
+    padding-top: 50px;
+}
+
+p
+{
+    color: var(--c_2);
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--c_2);
+}
+
+a:hover
+{
+    background-color: var(--c_2);
+    color: var(--c_1);
+    font-weight: bold;
+}
+
+::selection
+{
+	color: var(--c_1);
+	background-color: var(--c_2);
+}
+
+::-webkit-scrollbar
+{
+        width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+        background: var(--c_1);
+}
+
+::-webkit-scrollbar-thumb
+{
+        background: var(--c_2);
+}
