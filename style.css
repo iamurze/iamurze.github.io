@@ -8,7 +8,12 @@
     text-align: center;
 }
 
-img.urze
+img
+{
+    image-rendering: crisp-edges;
+}
+
+img.urze1
 {
     padding-top: 50px;
 }
@@ -39,7 +44,7 @@ a:hover
 
 ::-webkit-scrollbar
 {
-        width: 12px;
+        width: 14px;
 }
 
 ::-webkit-scrollbar-track
