@@ -2,8 +2,8 @@
 :root
 {
     font-family: 'Consolas', monaco, monospace;
-    --c_1: #56312b;
-    --c_2: #EEEEEE;
+    --c_1: #4c562b;
+    --c_2: #ffffb9;
     background-color: var(--c_1);
     text-align: center;
 }
