@@ -8,12 +8,19 @@
     text-align: center;
 }
 
+body
+{
+    border-color: #ffffb9;
+    border-width: 1px;
+    border-style: solid;
+}
+
 img
 {
     image-rendering: crisp-edges;
 }
 
-img.urze1
+img.urze
 {
     padding-top: 50px;
 }
@@ -21,6 +28,13 @@ img.urze1
 p
 {
     color: var(--c_2);
+    letter-spacing: -.5px;
+    font-size: medium;
+}
+
+p.info
+{
+    padding-bottom: 50px;
 }
 
 a
@@ -55,4 +69,12 @@ a:hover
 ::-webkit-scrollbar-thumb
 {
         background: var(--c_2);
+}
+
+@media screen and (max-width: 300px)
+{
+    img.poster
+    {
+        width: 250px;
+    }
 }
