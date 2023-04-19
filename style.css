@@ -2,15 +2,15 @@
 :root
 {
     font-family: 'Consolas', monaco, monospace;
-    --c_1: #4c562b;
-    --c_2: #ffffb9;
+    --c_1: #2B2B2B;
+    --c_2: #ffffff;
     background-color: var(--c_1);
     text-align: center;
 }
 
 body
 {
-    border-color: #ffffb9;
+    border-color: var(--c_2);
     border-width: 1px;
     border-style: solid;
 }
