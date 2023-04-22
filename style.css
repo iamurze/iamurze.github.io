@@ -2,8 +2,8 @@
 :root
 {
     font-family: 'Consolas', monaco, monospace;
-    --c_1: #2B2B2B;
-    --c_2: #ffffff;
+    --c_1: #FFFFFF;
+    --c_2: #BB8FA3;
     background-color: var(--c_1);
     text-align: center;
 }
@@ -73,6 +73,11 @@ a:hover
 
 @media screen and (max-width: 300px)
 {
+    img.urze
+    {
+        width: 200px;
+    }
+
     img.poster
     {
         width: 250px;
